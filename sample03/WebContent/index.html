@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h2>Servlet</h2>
+
+<!-- Server + Applet = Servlet -->
+
+<a href="hello">HelloServlet get으로 이동</a>
+<br><br>
+
+<form action="hello" method="get">
+	<input type="submit" value="HelloServlet get으로 이동">
+</form>
+<br>
+
+<form action="hello" method="post">
+	<input type="submit" value="HelloServlet post으로 이동">
+</form>
+<br>
+
+<button type="button" onclick="btnclick()">HelloServlet get으로 이동</button>
+
+
+<script type="text/javascript">
+function btnclick() {
+	location.href = "hello";
+}
+</script>
+
+
+
+
+</body>
+</html>
